@@ -18,3 +18,10 @@ then
 else
    echo "installed successfully"
 fi
+yum install git -y
+if [ $? -ne 0]
+then
+   echo "installing git failed"
+else
+   echo "instaled successfully"
+fi
