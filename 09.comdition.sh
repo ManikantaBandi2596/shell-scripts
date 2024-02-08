@@ -16,12 +16,12 @@ then
    echo "error::installing mysql fallied"
    exit 1
 else
-   echo "installed successfully"
+   echo "mysql installed successfully"
 fi
 yum install git -y
 if [ $? -ne 0 ]
 then
    echo "installing git failed"
 else
-   echo "instaled successfully"
+   echo "git instaled successfully"
 fi
