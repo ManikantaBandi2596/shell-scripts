@@ -1,10 +1,10 @@
 #!/bin/bash
 
-ID = $(id -u)
+ID=$(id -u)
 
-if [ $ID -ne 0]
+if [ $ID -ne 0 ]
 then
    echo "ERROR::Please run with root access"
 else
-   echo "Running wirh root access "
+   echo "you are root user "
 fi
